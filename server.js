@@ -25,4 +25,4 @@ app.get('/', (req, res) => {
     res.render('palaute');
 })
 
-app.listen(port, host, () => `${host}:${port} kuuntelee...`);
+app.listen(port, host, () => console.log(`${host}:${port} kuuntelee...`));
